@@ -9,10 +9,35 @@ body {
 }
 
 /*
+custom primary button
+ */
+
+.dropdown-item:active, dropdown-item:focus {
+  border-color: #2980b9 !important;
+  background-color: #3498db !important;
+  color: white !important;
+}
+
+.btn-primary {
+  border-color: #ecf0f1;
+  background-color: #2980b9;
+  color: #ecf0f1;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  border-color: #2980b9 !important;
+  background-color: #3498db !important;
+  color: white !important;
+}
+
+
+
+/*
  * Navbar
  */
 .navbar {
   z-index: 110;
+  background-color: #2980b9;
 }
 
 
@@ -84,13 +109,28 @@ body {
 
 /* resources page */
 
+/* .nav-item:hover {
+
+  color: white
+} */
+
+.nav-text {
+  padding-left: 10px
+}
+
+.nav-link:hover {
+  background-color: #2980b9;
+  color: white
+}
+
 #resources-container {
   padding-top: 30px;
+
 }
 
 .resources-jumbotron {
-  /* background-color: #34495e;
-  color: #FFF; */
+  background-color: #2980b9;
+  color: #ecf0f1;
   padding-top: 32px;
   padding-bottom: 32px;
 }
