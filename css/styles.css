@@ -80,3 +80,22 @@ body {
   font-size: .75rem;
   text-transform: uppercase;
 }
+
+
+/* resources page */
+
+#resources-container {
+  padding-top: 30px;
+}
+
+.resources-jumbotron {
+  /* background-color: #34495e;
+  color: #FFF; */
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
