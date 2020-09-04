@@ -138,6 +138,60 @@ custom primary button
 }
 
 
+/* homepage/ index  */
+
+
+
+
+.header-img {
+  width: 100%;
+  height: 400px;
+  background: url("/images/home/header-img.png");
+  background-size: cover;
+}
+
+.header-text {
+  color: white;
+  text-align: center;
+  padding-top: 125px;
+}
+
+.site-description {
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 767.98px) {
+.header-text {
+  padding-top: 75px;
+}
+
+
+}
+
+
+/* Center align the text within the three columns below the header */
+.site-description .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.site-description h2 {
+  font-weight: 400;
+}
+.site-description .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.feature-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  margin-bottom: 5px;
+}
+
+
+
 /* resources page */
 
 
@@ -168,6 +222,15 @@ custom primary button
 
 .footer {
   position: static;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.footer-sticky {
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
